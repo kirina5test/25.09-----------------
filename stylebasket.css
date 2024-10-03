@@ -59,14 +59,14 @@ footer {
     justify-content: space-around;
 }
 
- .product {
+  .product { /*продукты, выпавшие в корзине */
     /* width: 100; */
     /* height: 130px;  */
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: ; 
-    /* justify-content: end; */
-    align-items: center;
+    /* justify-content: space-between; */
+    /* flex-wrap: nowrap; */
+      /* justify-content: end; */
+    /* align-items: center; */
     /* border: 1px solid; */
     margin: 10px;
 }  */ *
@@ -79,10 +79,10 @@ footer {
 }  
 
  /* .product img {
-    width: 80%;
-    height: 70%;
-    padding-top: 1px;
-} */
+    /* width: 80%; */
+    /* height: 70%; */
+    /* padding-top: 1px; */
+ /* } */
 
 /* .product img.addButton {
     width: 20%;
@@ -112,28 +112,29 @@ footer {
         justify-content: center;
     }
 
-.container-products{
-    max-width: 95%;
+ .container-products{ 
+    max-width: 95%; 
     width: 700px;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
     margin: 0 auto;
     padding-top: 30px; 
     
-}
-.container-products  img{
+} 
+/* .container-products  img{
     font-size: 25px;
     color: black;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
     cursor: pointer;
-}
+} */
 
 .product-header{
     width: 100%;
     display: flex;
-    justify-content: flex-start;
-    border-bottom: 1px solid black;
-    margin: 0 auto;
+    /* justify-content: flex-start; */
+    /* border-bottom: 1px solid black; */
+    /* margin: 10 auto; */
     font-size: 20px;
 }
 .product-title{
@@ -164,8 +165,8 @@ footer {
     align-items: center;
 }
 .products{
-    /* width: 100%; */
-    display: flex;
+    width: 15%; 
+        display: flex;
     flex-wrap: wrap;
 }
 .product-info {
@@ -178,9 +179,10 @@ footer {
     /* padding: 0 10px; */
 }
 .product_price {
-    justify-content: center;
     display: flex;
+    justify-content: center;
     width: 290px;
+    padding-left: 70px;
     /* width: 65%; */
 }
 
@@ -188,12 +190,14 @@ footer {
     justify-content: center;
     display: flex;
     /* width: 30%; */
-    align-items: center;
+    /* padding-left: 0px; */
+     align-items: center; 
 }
 
 .product_total {
     justify-content: center;
     display: flex;
+    padding-left: 20px;
     width: 10%;
 }
 
