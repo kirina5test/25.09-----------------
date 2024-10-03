@@ -38,8 +38,8 @@ for (const key in productData) {
 
   productElement.innerHTML = `
                         <div class="product-info">
-                            <img class name="close-circle" class="delete"></img class>
-                             <img src="images/${product.id}.jpg">
+                            <img class name="close-circle" class="delete">
+                             <img src="${product.id}.jpg">
                             <div class="product-name">${product.name}</div>
                         </div>
                         <div class="product_price">₽${product.price}</div>
