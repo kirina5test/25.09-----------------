@@ -164,27 +164,30 @@ footer {
     align-items: center;
 }
 .products{
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     flex-wrap: wrap;
 }
 .product-info {
-    width: 45%;
+    /* width: 65%; */
+
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 15px;
+   
+    /* padding: 0 10px; */
 }
 .product_price {
     justify-content: center;
     display: flex;
-    width: 15%;
+    width: 290px;
+    /* width: 65%; */
 }
 
 .product_quantity {
     justify-content: center;
     display: flex;
-    width: 30%;
+    /* width: 30%; */
     align-items: center;
 }
 
@@ -195,7 +198,7 @@ footer {
 }
 
 .products img {
-    width: 75px;
+    width: 35px;
 }
 /* .basketTotalContainer {
      display: flex;
